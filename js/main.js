@@ -31,9 +31,9 @@ function setBgGreet() {
 
     if(hour < 12) {
       // Morning
-      document.body.style.backgroundImage="url('../node_code/img/morning-img.jpg')";
+      document.body.style.backgroundImage="url('../earbudstoday.github.io/img/morning-img.jpg')";
       greeting.textContent = 'Good Morning, ';
-    } else if (hour < 18){
+    } else if (hour < 16){
       //After noon
       document.body.style.backgroundImage="url('../earbudstoday.github.io/img/morning-img.jpg')";
       greeting.textContent = 'Good Afternoon, ';
@@ -41,7 +41,7 @@ function setBgGreet() {
 
     } else {
        //  Evening and Night
-      document.body.style.backgroundImage="url('../node_code/img/night-img.jpg')";
+      document.body.style.backgroundImage="url('../earbudstoday.github.io/img/night-img.jpg')";
       greeting.textContent = 'Good Evening and Night, ';
       document.body.style.color = 'white';
     }
