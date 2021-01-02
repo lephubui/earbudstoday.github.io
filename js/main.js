@@ -35,7 +35,7 @@ function setBgGreet() {
       greeting.textContent = 'Good Morning, ';
     } else if (hour < 18){
       //After noon
-      document.body.style.backgroundImage="url('../img/morning-img.jpg')";
+      document.body.style.backgroundImage="url('../earbudstoday.github.io/img/morning-img.jpg')";
       greeting.textContent = 'Good Afternoon, ';
       document.body.style.color = 'black';
 
